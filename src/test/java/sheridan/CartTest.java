@@ -35,7 +35,7 @@ public class CartTest {
         Cart instance = new Cart();
         instance.addProduct(product);
         
-        assertEquals("Products in cart does not equal to 0.", 0,  instance.getCartSize());
+        assertEquals("Products in cart does not equal to 1.", 1,  instance.getCartSize());
     }
     
 }
